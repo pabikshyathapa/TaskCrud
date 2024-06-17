@@ -43,10 +43,8 @@ class LoginActivity : AppCompatActivity() {
         userViewModel.loadingState.observe(this) { loading ->
             if (loading) {
                 loginBinding.progressBar2.visibility = View.VISIBLE
-                finish()
             } else {
                 loginBinding.progressBar2.visibility = View.GONE
-                finish()
             }
         }
         userViewModel.userList.observe(this) { user ->
