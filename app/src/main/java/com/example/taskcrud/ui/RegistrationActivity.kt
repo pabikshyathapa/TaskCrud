@@ -73,9 +73,9 @@ class RegistrationActivity : AppCompatActivity() {
         }
         registrationBinding.buttonregister2.setOnClickListener {
             uploadImage()
-//            var name : String = registrationBinding.editname.text.toString()
-//            var email : String = registrationBinding.editemail.text.toString()
-//            var number : Int = registrationBinding.editNumber.text.toString().toInt()
+//          var name : String = registrationBinding.editname.text.toString()
+//           var email : String = registrationBinding.editemail.text.toString()
+//           var number : Int = registrationBinding.editNumber.text.toString().toInt()
 //            var password : String = registrationBinding.editPassword.text.toString()
 //
 //            Toast.makeText(applicationContext, "Registration Success", Toast.LENGTH_LONG).show()
