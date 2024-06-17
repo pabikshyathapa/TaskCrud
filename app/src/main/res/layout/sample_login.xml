@@ -9,7 +9,7 @@
 
     <androidx.cardview.widget.CardView
         android:layout_width="match_parent"
-        android:layout_height="200dp" >
+        android:layout_height="225dp">
 
         <androidx.constraintlayout.widget.ConstraintLayout
             android:layout_width="match_parent"
@@ -21,14 +21,14 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="240dp"
-                android:layout_marginTop="16dp"
+                android:layout_marginTop="50dp"
                 android:layout_marginEnd="125dp"
-                android:layout_marginBottom="12dp"
                 android:text="Email"
                 android:textSize="24dp"
                 android:textStyle="bold"
                 app:layout_constraintBottom_toTopOf="@+id/labelNumber"
                 app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.428"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent" />
 
@@ -83,16 +83,16 @@
 
             <ImageView
                 android:id="@+id/display"
-                android:layout_width="164dp"
-                android:layout_height="128dp"
-                android:layout_marginStart="7dp"
+                android:layout_width="128dp"
+                android:layout_height="172dp"
                 android:layout_marginTop="19dp"
-                android:layout_marginEnd="9dp"
                 android:layout_marginBottom="33dp"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toStartOf="@+id/labelPassword"
+                app:layout_constraintHorizontal_bias="0.026"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.424"
                 app:srcCompat="@drawable/baseline_add_a_photo_24" />
 
             <ProgressBar
