@@ -18,11 +18,11 @@ class UserRepositoryImpl : UserRepository{
         imageUrl: Uri,
         callback: (Boolean, String?) -> Unit
     ) {
-        var imageRefernce= storageref.child(imageName)
+        var imageReference= storageref.child(imageName)
 
         imageUrl?.let {url->
-            imageRefernce.putFile(url).addOnSuccessListener{
-                imageRefernce.downloadUrl.addOnSuccessListener {downloadUrl->
+            imageReference.putFile(url).addOnSuccessListener{
+                imageReference.downloadUrl.addOnSuccessListener {downloadUrl->
                     var imageUrl = downloadUrl.toString()
                     callback(true,imageUrl)
                 }
@@ -114,4 +114,3 @@ class UserRepositoryImpl : UserRepository{
 
 }
 
-//class UserRepositoryImpl {
