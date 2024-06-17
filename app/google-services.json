@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "597129583829",
+    "project_id": "taskcrud-864f8",
+    "storage_bucket": "taskcrud-864f8.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:597129583829:android:e8422bb0175761ad0e165c",
+        "android_client_info": {
+          "package_name": "com.example.taskcrud"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyATdzK-amAJ6erlBgoj2OGJwaalX7Xy0uY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
